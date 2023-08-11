@@ -10,7 +10,7 @@ import org.junit.jupiter.api.*;
 public class BookingAHotelTest extends TestBase {
 
     @Order(1)
-    @Tag("smoke")
+    @Tag("front")
     @DisplayName("Hotels")
     @AllureId("15212")
     @Test

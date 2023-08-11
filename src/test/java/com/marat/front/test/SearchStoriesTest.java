@@ -10,7 +10,7 @@ import org.junit.jupiter.api.*;
 public class SearchStoriesTest extends TestBase {
 
     @Order(2)
-    @Tag("smoke")
+    @Tag("front")
     @DisplayName("Stories")
     @AllureId("15136")
     @Test

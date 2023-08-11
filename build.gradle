@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'io.qameta.allure' version '2.11.2'
-//    id "io.freefair.lombok" version "6.5.1"
+    id "io.freefair.lombok" version "6.5.1"
 }
 
 description 'Test task for ProjectName'
@@ -49,9 +49,11 @@ dependencies {
             "io.qameta.allure:allure-selenide:$allureVersion",
             "org.aeonbits.owner:owner:$ownerVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
-//            "io.rest-assured:rest-assured:$restAssuredVersion",
+            "org.junit.jupiter:junit-jupiter-api:$junitVersion",
+            'org.junit.jupiter:junit-jupiter-params:5.9.2',
+            "io.rest-assured:rest-assured:$restAssuredVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
-//            "com.fasterxml.jackson.core:jackson-databind:$jacksonDatabindVersion",
+            "com.fasterxml.jackson.core:jackson-databind:$jacksonDatabindVersion",
             "org.assertj:assertj-core:$assertjCoreVersion",
 //            "org.apache.logging.log4j:log4j-api:$log4jVersion",
 //            "org.apache.logging.log4j:log4j-core:$log4jVersion",
@@ -83,14 +85,14 @@ tasks.withType(Test) {
     }
 }
 
-task smoke_tests(type: Test) {
+task ui_tests(type: Test) {
     useJUnitPlatform {
-        includeTags "smoke"
+        includeTags "front"
     }
 }
 
-task ui_tests(type: Test) {
+task api_tests(type: Test) {
     useJUnitPlatform {
-        includeTags "smoke"
+        includeTags "back"
     }
 }

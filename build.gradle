@@ -89,29 +89,8 @@ task smoke_tests(type: Test) {
     }
 }
 
-task auth_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags "authorization"
-    }
-}
-
-task update_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags "update"
-    }
-}
-
-task download_file_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags "downloads"
-    }
-}
-
 task ui_tests(type: Test) {
     useJUnitPlatform {
-        includeTags "downloads"
-        includeTags "update"
         includeTags "smoke"
-        includeTags "authorization"
     }
 }

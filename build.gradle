@@ -13,7 +13,7 @@ repositories {
 }
 
 def allureVersion = "2.20.1",
-    selenideVersion = "6.10.3",
+    selenideVersion = "5.20.1",
     ownerVersion = "1.0.12",
     junitVersion = "5.9.0",
     restAssuredVersion = "5.2.0",
@@ -55,6 +55,7 @@ dependencies {
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "com.fasterxml.jackson.core:jackson-databind:$jacksonDatabindVersion",
             "org.assertj:assertj-core:$assertjCoreVersion",
+            "io.appium:java-client:7.3.0",
 //            "org.apache.logging.log4j:log4j-api:$log4jVersion",
 //            "org.apache.logging.log4j:log4j-core:$log4jVersion",
             "com.codeborne:pdf-test:1.7.0",

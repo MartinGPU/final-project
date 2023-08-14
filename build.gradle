@@ -19,7 +19,7 @@ def allureVersion = "2.20.1",
     restAssuredVersion = "5.2.0",
     jacksonDatabindVersion = "2.14.0",
     assertjCoreVersion = "3.23.1",
-    log4jVersion = "2.19.0"
+        log4jVersion = "2.19.0"
 
 allure {
     report {

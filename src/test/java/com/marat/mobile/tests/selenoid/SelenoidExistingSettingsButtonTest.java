@@ -15,7 +15,7 @@ import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
 @Feature("Settings")
-@Tag("selenide_selenoid")
+@Tag("mobile")
 public class SelenoidExistingSettingsButtonTest extends GenTestBase {
 
     @DisplayName("Settings button")

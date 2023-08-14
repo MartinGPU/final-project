@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @Feature("Search text")
-@Tag("selenide_selenoid")
+@Tag("mobile")
 public class SelenoidSearchTest extends GenTestBase {
 
     @DisplayName("Searching test")

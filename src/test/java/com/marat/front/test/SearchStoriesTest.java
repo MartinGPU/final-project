@@ -12,7 +12,7 @@ public class SearchStoriesTest extends TestBase {
     @Order(2)
     @Tag("front")
     @DisplayName("Stories")
-    @AllureId("15136")
+    @AllureId("")
     @Test
     @Owner("Marat")
     public void searchStories() {

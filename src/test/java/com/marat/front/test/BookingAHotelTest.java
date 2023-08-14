@@ -12,7 +12,7 @@ public class BookingAHotelTest extends TestBase {
     @Order(1)
     @Tag("front")
     @DisplayName("Hotels")
-    @AllureId("15212")
+    @AllureId("")
     @Test
     @Owner("Marat")
     public void searchHotel() {

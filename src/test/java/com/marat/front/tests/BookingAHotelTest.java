@@ -16,22 +16,13 @@ public class BookingAHotelTest extends TestBase {
 
 
     @Tag("front")
-    @AllureId("")
+    @AllureId("25333")
     @JiraIssues({@JiraIssue("")})
     @Test
     @Owner("Marat")
     @Step("Search hotels")
     public void searchHotel() {
         bookingAHotelPage.hotels();
-    }
-
-    @Tag("front")
-    @JiraIssues({@JiraIssue("")})
-    @AllureId("")
-    @Test
-    @Owner("Marat")
-    @Step("Check hotels")
-    public void checkHotelsResult() {
         bookingAHotelPage.checkResults();
     }
 

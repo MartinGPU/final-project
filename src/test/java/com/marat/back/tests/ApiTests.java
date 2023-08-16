@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Feature("Operations with user's acc")
 public class ApiTests {
 
-    @AllureId("")
+    @AllureId("25326")
     @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
@@ -41,7 +41,7 @@ public class ApiTests {
         assertEquals("Weaver", data.getUser().getLastName());
     }
 
-    @AllureId("")
+    @AllureId("25327")
     @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
@@ -58,7 +58,7 @@ public class ApiTests {
                 .body("job", is("peace maker"));
  }
 
-    @AllureId("")
+    @AllureId("25328")
     @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
@@ -75,7 +75,7 @@ public class ApiTests {
                 .body("job",  is("teacher"));
     }
 
-    @AllureId("")
+    @AllureId("25329")
     @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
@@ -90,7 +90,7 @@ public class ApiTests {
                 .spec(response204);
     }
 
-    @AllureId("")
+    @AllureId("25330")
     @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
@@ -107,7 +107,7 @@ public class ApiTests {
                 .body("token",  is("QpwL5tke4Pnpja7X12"));
     }
 
-    @AllureId("")
+    @AllureId("25331")
     @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test

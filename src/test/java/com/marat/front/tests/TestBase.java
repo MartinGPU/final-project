@@ -1,4 +1,4 @@
-package com.marat.front.test;
+package com.marat.front.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;

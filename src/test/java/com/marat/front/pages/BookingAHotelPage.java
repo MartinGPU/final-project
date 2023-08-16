@@ -4,7 +4,7 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.marat.front.test.TestData.cityHotel;
+import static com.marat.front.tests.TestData.cityHotel;
 import static io.qameta.allure.Allure.step;
 
 public class BookingAHotelPage {

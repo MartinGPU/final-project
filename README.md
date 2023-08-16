@@ -1,5 +1,5 @@
 ## The examples of UI, API and Mobile tests:
-- UI tests for [Profitero](https://www.profitero.com) web-site
+- UI tests for [tutu.ru](https://www.tutu.ru/) web-site
 - API tests for [Reqres](https://reqres.in/) web-site
 - Mobile tests for Wikipedia android application
 

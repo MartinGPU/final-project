@@ -1,4 +1,4 @@
-package com.marat.front.test;
+package com.marat.front.tests;
 
 public class TestData {
 

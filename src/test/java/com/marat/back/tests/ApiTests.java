@@ -1,6 +1,12 @@
 package com.marat.back.tests;
 
+import com.marat.allure.JiraIssue;
+import com.marat.allure.JiraIssues;
+import com.marat.allure.Layer;
 import com.marat.back.model.LombokUserData;
+import io.qameta.allure.AllureId;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -11,10 +17,15 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Layer("API")
+@Feature("Operations with user's acc")
 public class ApiTests {
 
+    @AllureId("")
+    @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
+    @Step("Get user")
     public void getSingleUser() {
         LombokUserData data = given()
                         .spec(request)
@@ -30,8 +41,11 @@ public class ApiTests {
         assertEquals("Weaver", data.getUser().getLastName());
     }
 
+    @AllureId("")
+    @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
+    @Step("Create user")
     public void createUser() {
         given()
                 .spec(request)
@@ -44,8 +58,11 @@ public class ApiTests {
                 .body("job", is("peace maker"));
  }
 
+    @AllureId("")
+    @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
+    @Step("Update user")
     public void updateUserData() {
         given()
                 .spec(request)
@@ -58,8 +75,11 @@ public class ApiTests {
                 .body("job",  is("teacher"));
     }
 
+    @AllureId("")
+    @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
+    @Step("Drop user")
     public void dropUserData() {
         given()
                 .spec(request)
@@ -70,8 +90,11 @@ public class ApiTests {
                 .spec(response204);
     }
 
+    @AllureId("")
+    @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
+    @Step("User registration")
     public void userRegistration() {
         given()
                 .spec(request)
@@ -84,8 +107,11 @@ public class ApiTests {
                 .body("token",  is("QpwL5tke4Pnpja7X12"));
     }
 
+    @AllureId("")
+    @JiraIssues({@JiraIssue("")})
     @Tag("back")
     @Test
+    @Step("User authorization")
     public void userAuth() {
         given()
                 .spec(request)

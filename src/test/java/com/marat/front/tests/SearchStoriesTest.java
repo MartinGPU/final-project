@@ -17,7 +17,7 @@ public class SearchStoriesTest extends TestBase {
 
     @Tag("front")
     @AllureId("25332")
-    @JiraIssues({@JiraIssue("")})
+    @JiraIssues({@JiraIssue("HOMEWORK-852")})
     @Test
     @Owner("Marat")
     @Step("Search stories")

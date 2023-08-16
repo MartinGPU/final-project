@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ApiTests {
 
     @AllureId("25326")
-    @JiraIssues({@JiraIssue("")})
+    @JiraIssues({@JiraIssue("HOMEWORK-852")})
     @Tag("back")
     @Test
     @Step("Get user")
@@ -42,7 +42,7 @@ public class ApiTests {
     }
 
     @AllureId("25327")
-    @JiraIssues({@JiraIssue("")})
+    @JiraIssues({@JiraIssue("HOMEWORK-852")})
     @Tag("back")
     @Test
     @Step("Create user")
@@ -59,7 +59,7 @@ public class ApiTests {
  }
 
     @AllureId("25328")
-    @JiraIssues({@JiraIssue("")})
+    @JiraIssues({@JiraIssue("HOMEWORK-852")})
     @Tag("back")
     @Test
     @Step("Update user")
@@ -76,7 +76,7 @@ public class ApiTests {
     }
 
     @AllureId("25329")
-    @JiraIssues({@JiraIssue("")})
+    @JiraIssues({@JiraIssue("HOMEWORK-852")})
     @Tag("back")
     @Test
     @Step("Drop user")
@@ -91,7 +91,7 @@ public class ApiTests {
     }
 
     @AllureId("25330")
-    @JiraIssues({@JiraIssue("")})
+    @JiraIssues({@JiraIssue("HOMEWORK-852")})
     @Tag("back")
     @Test
     @Step("User registration")
@@ -108,7 +108,7 @@ public class ApiTests {
     }
 
     @AllureId("25331")
-    @JiraIssues({@JiraIssue("")})
+    @JiraIssues({@JiraIssue("HOMEWORK-852")})
     @Tag("back")
     @Test
     @Step("User authorization")

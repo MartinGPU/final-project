@@ -36,7 +36,7 @@ Run Builds Statistics
 
 Parameters Сonfiguration
 
-<img src="resources/img/icons/Jenkins param.png" width="60%">
+<img src="resources/img/icons/Jenkins param.PNG" width="60%">
 
 
 ### [Jira](https://jira.autotests.cloud/browse/HOMEWORK-852) integration:

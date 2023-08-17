@@ -17,13 +17,17 @@
 
 ### Test execution:
 
-Local tests execution:
+UI tests execution:
 
-    gradle clean test
+    gradlew clean ui_tests
 
-Remote tests execution:
+API tests execution:
 
-    gradle clean test -Ddriver=remote
+    gradlew clean api_tests
+
+Mobile tests execution:
+
+     gradlew clean mibile_tests
 
 ### [Jenkins](https://jenkins.autotests.cloud/job/c05-marinahil-final-project/) project:
 Run Builds Statistics

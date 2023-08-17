@@ -32,28 +32,28 @@ Mobile tests execution:
 ### [Jenkins](https://jenkins.autotests.cloud/job/C08-Marat-final-project/) project:
 Run Builds Statistics
 
-<img src="resources/img/icons/Jenkins.png" width="60%">
+<img src="resources/img/icons/" width="60%">
 
-Parameters Сonfiguration
+Сonfiguration
 
 <img src="resources/img/icons/Jenkins param.PNG" width="60%">
 
 
 ### [Jira](https://jira.autotests.cloud/browse/HOMEWORK-852) integration:
 
-<img src="resources/img/icons/jira.jpg" width="60%">
+<img src="resources/img/icons/jira.JPG" width="60%">
 
 
 ### [Allure](https://allure.autotests.cloud/project/3623/dashboards/) integration:
 
-<img src="resources/img/icons/allure.jpg" width="60%">   <img src="resources/img/icons/allure 3.jpg" width="60%">
+<img src="resources/img/icons/allure.JPG" width="60%">   <img src="resources/img/icons/allure 3.JPG" width="60%">
 
-<img src="resources/img/icons/allure 2.jpg" width="60%">   <img src="resources/img/icons/allure 4.jpg" width="60%">
+<img src="resources/img/icons/allure 2.JPG" width="60%">   <img src="resources/img/icons/allure 4.JPG" width="60%">
 
 
 ### Video of a running test:
-<img src="resources/img/" width="60%">
+<img src="resources/img/icons/video.gif" width="60%">
 
 
 ### Telegram notification:
-<img src="resources/img/icons/telegram.jpg" width="60%">
+<img src="resources/img/icons/telegram.JPG" width="60%">

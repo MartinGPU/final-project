@@ -1,4 +1,4 @@
-## The examples of UI, API and Mobile tests:
+## Automation of UI, API and Mobile tests:
 - UI tests for [tutu.ru](https://www.tutu.ru/) web-site
 - API tests for [Reqres](https://reqres.in/) web-site
 - Mobile tests for Wikipedia android application
@@ -32,7 +32,7 @@ Mobile tests execution:
 ### [Jenkins](https://jenkins.autotests.cloud/job/C08-Marat-final-project/) project:
 Run Builds Statistics
 
-<img src="resources/img/icons/" width="60%">
+<img src="resources/img/icons/Jenkins history.PNG" width="60%">
 
 Сonfiguration
 

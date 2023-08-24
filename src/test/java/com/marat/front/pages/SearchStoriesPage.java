@@ -1,6 +1,7 @@
 package com.marat.front.pages;
 
 import com.codeborne.selenide.SelenideElement;
+import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
@@ -10,14 +11,13 @@ import static io.qameta.allure.Allure.step;
 public class SearchStoriesPage {
 
     private final SelenideElement
-            plots = $("[data-ti-nav-item='story']"),
-            searchItem = $("#infinite-top-search"),
-            searchBox = $$("[type='text']").get(1),
-            searchResults = $(".infinite-page-title");
+            searchItem = $$("input").get(0),
+            searchBox = $("[name='search']"),
+            searchResults = $$("span").get(19);
 
     public void stories() {
         step("Clicking to stories", () -> {
-            plots.click();
+            open("https://go.tutu.ru");
         });
 
         step("Clicking to search item", () -> {

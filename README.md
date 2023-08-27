@@ -54,9 +54,9 @@ Run Builds Statistics
 
 ### [Allure](https://allure.autotests.cloud/project/3623/dashboards/) integration:
 
-<img src="resources/img/icons/allure.JPG" width="60%">   <img src="resources/img/icons/allure 3.JPG" width="60%">
+<img src="resources/img/icons/allure.JPG" width="60%">   <img src="resources/img/icons/Allure 2.JPG" width="60%">
 
-<img src="resources/img/icons/allure 2.JPG" width="60%">   <img src="resources/img/icons/allure 4.JPG" width="60%">
+<img src="resources/img/icons/Allure.JPG" width="60%">  
 
 
 ### Video of a running test:
@@ -64,4 +64,4 @@ Run Builds Statistics
 
 
 ### Telegram notification:
-<img src="resources/img/icons/telegram.JPG" width="60%">
+<img src="resources/img/icons/Telega.JPG" width="60%">

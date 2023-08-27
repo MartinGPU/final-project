@@ -12,6 +12,7 @@
 <td align="center"><src="https://www.jetbrains.com/idea/"><img src="https://static-00.iconduck.com/assets.00/gradle-icon-256x256-jq2wrvfo.png" width="40" height="40"><br>Gradle</td>
 <td align="center"><src="https://www.jetbrains.com/idea/"><img src="https://junit.org/junit5/assets/img/junit5-logo.png" width="40" height="40"><br>JUnit5</td>
 <td align="center"><src="https://www.jetbrains.com/idea/"><img src="https://media.trustradius.com/product-logos/M1/My/B8NQDTOWGI16.PNG" width="40" height="40"><br>Rest-Assured</td>
+<td align="center"><src="https://www.jetbrains.com/idea/"><img src="resources/img/icons/And.jpg" width="60" height="40"><br>Android</td>
 </tr>
 <tr>
 <td align="center"><src="https://www.jetbrains.com/idea/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png" width="40" height="40"><br>Jenkins</td>
@@ -19,6 +20,7 @@
 <td align="center"><src="https://www.jetbrains.com/idea/"><img src="https://img.stackshare.io/service/40438/default_a9d9f8f8546d65b5f12a32106e6d03e6921e11fa.png" width="40" height="40"><br>Allure TestOps</td>
 <td align="center"><src="https://www.jetbrains.com/idea/"><img src="https://logowik.com/content/uploads/images/jira2966.logowik.com.webp" width="40" height="40"><br>Jira</td>
 <td align="center"><src="https://www.jetbrains.com/idea/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" width="40" height="40"><br>Telegram Bot</td>
+<td align="center"><src="https://www.jetbrains.com/idea/"><img src="resources/img/icons/appium.png" width="60" height="40"><br>Appium</td>
 </tr>
 </tbody>
 </table>

@@ -11,7 +11,6 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
-import static com.marat.front.helpers.Attach.getVideoUrl;
 import static org.openqa.selenium.logging.LogType.BROWSER;
 
 public class Attach {
@@ -36,6 +35,17 @@ public class Attach {
         return "<html><body><video width='100%' height='100%' controls autoplay><source src='"
                 + getVideoUrl(sessionId)
                 + "' type='video/mp4'></video></body></html>";
+    }
+
+    private static String getVideoUrl(String sessionId) {
+        String deviceFarm = System.getProperty("deviceFarm");
+
+        if(deviceFarm.equals("browserstack")) {
+            return Browserstack.videoUrl(sessionId);
+        } else if(deviceFarm.equals("selenoid")) {
+            return getSelenoidVideoUrl(sessionId);
+        }
+        return null;
     }
 
     public static String getSelenoidVideoUrl(String sessionId) {

@@ -1,4 +1,4 @@
-package com.marat.mobile.tests.selenoid;
+package com.marat.mobile.tests.real;
 
 import com.marat.mobile.tests.GenTestBase;
 import io.appium.java_client.MobileBy;
@@ -14,8 +14,8 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @Feature("Search text")
-@Tag("selenide_selenoid")
-public class SelenoidSearchTest extends GenTestBase {
+@Tag("real_android")
+public class RealSearchTest extends GenTestBase {
 
     @DisplayName("Searching test")
     @AllureId("22983")

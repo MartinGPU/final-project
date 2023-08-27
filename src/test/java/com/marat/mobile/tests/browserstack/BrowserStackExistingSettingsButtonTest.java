@@ -1,4 +1,4 @@
-package com.marat.mobile.tests.selenoid;
+package com.marat.mobile.tests.browserstack;
 
 import com.codeborne.selenide.Condition;
 import com.marat.mobile.tests.GenTestBase;
@@ -11,19 +11,17 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
 @Feature("Settings")
-@Tag("selenide_selenoid")
-public class SelenoidExistingSettingsButtonTest extends GenTestBase {
+@Tag("selenide_browserstack")
+public class BrowserStackExistingSettingsButtonTest extends GenTestBase {
 
     @DisplayName("Settings button")
     @AllureId("22994")
     @Owner(value = "Marat")
     @Test
     void existingSettingsButton() {
-        back();
         step("Open settings menu", () -> {
             $(MobileBy.id("org.wikipedia.alpha:id/menu_overflow_button")).click();
         });

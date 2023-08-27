@@ -1,4 +1,4 @@
-package com.marat.mobile.tests.selenoid;
+package com.marat.mobile.tests.real;
 
 import com.codeborne.selenide.Condition;
 import com.marat.mobile.tests.GenTestBase;
@@ -15,8 +15,8 @@ import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
 @Feature("Settings")
-@Tag("selenide_selenoid")
-public class SelenoidExistingSettingsButtonTest extends GenTestBase {
+@Tag("real_android")
+public class RealExistingSettingsButtonTest extends GenTestBase {
 
     @DisplayName("Settings button")
     @AllureId("22994")

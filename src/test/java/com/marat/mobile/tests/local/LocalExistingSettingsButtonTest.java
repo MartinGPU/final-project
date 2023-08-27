@@ -1,4 +1,4 @@
-package com.marat.mobile.tests.selenoid;
+package com.marat.mobile.tests.local;
 
 import com.codeborne.selenide.Condition;
 import com.marat.mobile.tests.GenTestBase;
@@ -15,8 +15,8 @@ import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
 @Feature("Settings")
-@Tag("selenide_selenoid")
-public class SelenoidExistingSettingsButtonTest extends GenTestBase {
+@Tag("selenide_local")
+public class LocalExistingSettingsButtonTest extends GenTestBase {
 
     @DisplayName("Settings button")
     @AllureId("22994")
@@ -25,10 +25,10 @@ public class SelenoidExistingSettingsButtonTest extends GenTestBase {
     void existingSettingsButton() {
         back();
         step("Open settings menu", () -> {
-            $(MobileBy.id("org.wikipedia.alpha:id/menu_overflow_button")).click();
+            $(MobileBy.id("org.wikipedia.alpha:id/view_announcement_action_positive")).click();
         });
         step("Existing settings button", () -> {
-            $(MobileBy.id("org.wikipedia.alpha:id/explore_overflow_settings")).shouldHave(Condition.text("Settings"));
+            $(MobileBy.id("org.wikipedia.alpha:id/feed_content_type_title")).shouldHave(Condition.text("Featured article"));
         });
     }
 }
